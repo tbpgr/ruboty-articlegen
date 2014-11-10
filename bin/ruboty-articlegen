@@ -23,7 +23,7 @@ module Ruboty
 
     desc 'version', 'version'
     def version
-      p Ruboty::VERSION
+      p Ruboty::Gen::VERSION
     end
   end
 end
