@@ -2,6 +2,9 @@
 
 Generate Markdown Article for Ruboty Handler + Actions plugin.
 
+[![Build Status](https://travis-ci.org/tbpgr/ruboty-articlegen.png?branch=master)](https://travis-ci.org/tbpgr/ruboty-articlegen)
+[![Coverage Status](https://coveralls.io/repos/tbpgr/ruboty-articlegen/badge.png)](https://coveralls.io/r/tbpgr/ruboty-articlegen)
+
 [Ruboty](https://github.com/r7kamura/ruboty) is Chat bot framework. Ruby + Bot = Ruboty
 
 ## Installation
