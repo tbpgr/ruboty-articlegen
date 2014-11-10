@@ -57,12 +57,22 @@ generate Ruboty Handler + Action Article Markdown template
 
 ~~~ruby
 # encoding: utf-8
-github_user_name "tbpgr"
-rubygems_user_name "tbpgr"
+user_name "tbpgr"
 
 gem_name "ume"
 
 title "チャットを空メッセージ or 任意のメッセージで埋める ruboty-ume を作成しました"
+purpose <<-PURPOSE
+ruboty google_image で妙な画像を引き当ててしまった。
+そんなときに限って、偉い人が近づいてくる。
+急いでチャット画面から画像を追い出すんだ。
+
+内緒のメッセージのやりとり。
+そんなときに限って、内緒のやりとりがばれるとまずい相手が近づいてくる。
+急いでチャット画面から画像を追い出すんだ。
+
+そんな時に空行を大量に追加してメッセージを画面外に追い出します。
+PURPOSE
 
 env do |e|
   e.name "ENV1"
@@ -88,12 +98,20 @@ command do |c|
   c.name "ume"
   c.pattern "/ume (?<count>.*?)\z/"
   c.description "output empty message N lines (<count> times)"
+  c.example <<-EXAMPLE
+>ruboty command1
+>result1
+  EXAMPLE
 end
 
 command do |c|
   c.name "umec"
   c.pattern "/umec (?<text>.+?) (?<count>.*?)\z/"
   c.description "output <text> message N lines (<count> times)"
+  c.example <<-EXAMPLE
+>ruboty command2
+>result2
+  EXAMPLE
 end
 ~~~
 
