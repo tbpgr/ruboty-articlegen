@@ -102,7 +102,7 @@ end
 $ ruboty-articlegen generate
 ~~~
 
-* output
+* output  
 [sample output ruboty-ume ruboty-ume_article](https://github.com/tbpgr/ruboty-articlegen/blob/master/sample/ruboty-ume.md)
 
 ## Contributing
