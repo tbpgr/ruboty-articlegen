@@ -75,10 +75,10 @@ end
         expected: <<-EOS
 # チャットを空メッセージ or 任意のメッセージで埋める ruboty-sample_gem を作成しました #ruboty
 
-## 概要
+## <i class="fa fa-cubes" style="font-size:1em;"></i> 概要
 チャットを空メッセージ or 任意のメッセージで埋める ruboty-sample_gem を作成しました
 
-## 用途
+## <i class="fa fa-cube" style="font-size:1em;"></i> 用途
 ruboty google_image で妙な画像を引き当ててしまった。
 そんなときに限って、偉い人が近づいてくる。
 急いでチャット画面から画像を追い出すんだ。
@@ -89,7 +89,7 @@ ruboty google_image で妙な画像を引き当ててしまった。
 
 そんな時に空行を大量に追加してメッセージを画面外に追い出します。
 
-## Installation
+## <i class="fa fa-cube" style="font-size:1em;"></i> Installation
 
 Add this line to your application's Gemfile:
 
@@ -105,14 +105,14 @@ Or install it yourself as:
 
     $ gem install ruboty-sample_gem
 
-## Commands
+## <i class="fa fa-terminal" style="font-size:1em;"></i> Commands
 
 |Command|Pattern|Description|
 |:--|:--|:--|
 |command1|/command1 &#124; hoge/|command1 description|
 |command2|/command2 &#124; hoge/|command2 description|
 
-## Usage
+## <i class="fa fa-file-text-o" style="font-size:1em;"></i> Usage
 ### command1
 * command1 description
 
@@ -129,23 +129,23 @@ Or install it yourself as:
 >result2
 ~~~
 
-## ENV
+## <i class="fa fa-gears" style="font-size:1em;"></i> ENV
 
 |Name|Description|
 |:--|:--|
 |ENV1|ENV1 description|
 |ENV2|ENV2 description|
 
-## Dependency
+## <i class="fa fa-puzzle-piece" style="font-size:1em;"></i> Dependency
 
 |Name|Description|
 |:--|:--|
 |dependency1 name|dependency1 description|
 |dependency2 name|dependency2 description|
 
-## 参照
-* [ruboty-sample_gem GitHub](https://github.com/tbpgr/ruboty-sample_gem)
-* [ruboty-sample_gem RubyGems](http://rubygems.org/gems/ruboty-sample_gem)
+## <i class="fa fa-arrow-circle-right" style="font-size:1em;"></i> 参照
+* <i class="fa fa-external-link" style="font-size:1em;"></i> [ruboty-sample_gem GitHub](https://github.com/tbpgr/ruboty-sample_gem)
+* <i class="fa fa-external-link" style="font-size:1em;"></i> [ruboty-sample_gem RubyGems](http://rubygems.org/gems/ruboty-sample_gem)
         EOS
       }
     ]

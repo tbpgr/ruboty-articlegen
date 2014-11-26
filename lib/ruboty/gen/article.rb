@@ -96,12 +96,12 @@ end
       RUBOTY_ARTICLE_TEMPLATE = <<-EOS
 # <%=title%> #ruboty
 
-## 概要
+## <i class="fa fa-cubes" style="font-size:1em;"></i> 概要
 <%=title%>
 
-## 用途
+## <i class="fa fa-cube" style="font-size:1em;"></i> 用途
 <%=purpose%>
-## Installation
+## <i class="fa fa-cube" style="font-size:1em;"></i> Installation
 
 Add this line to your application's Gemfile:
 
@@ -117,30 +117,30 @@ Or install it yourself as:
 
     $ gem install ruboty-<%=gem_name%>
 
-## Commands
+## <i class="fa fa-terminal" style="font-size:1em;"></i> Commands
 
 |Command|Pattern|Description|
 |:--|:--|:--|
 <%=command_table%>
 
-## Usage
+## <i class="fa fa-file-text-o" style="font-size:1em;"></i> Usage
 <%=usages%>
 
-## ENV
+## <i class="fa fa-gears" style="font-size:1em;"></i> ENV
 
 |Name|Description|
 |:--|:--|
 <%=env_table%>
 
-## Dependency
+## <i class="fa fa-puzzle-piece" style="font-size:1em;"></i> Dependency
 
 |Name|Description|
 |:--|:--|
 <%=dependency_table%>
 
-## 参照
-* [ruboty-<%=gem_name%> GitHub](https://github.com/<%=user_name%>/ruboty-<%=gem_name%>)
-* [ruboty-<%=gem_name%> RubyGems](http://rubygems.org/gems/ruboty-<%=gem_name%>)
+## <i class="fa fa-arrow-circle-right" style="font-size:1em;"></i> 参照
+* <i class="fa fa-external-link" style="font-size:1em;"></i> [ruboty-<%=gem_name%> GitHub](https://github.com/<%=user_name%>/ruboty-<%=gem_name%>)
+* <i class="fa fa-external-link" style="font-size:1em;"></i> [ruboty-<%=gem_name%> RubyGems](http://rubygems.org/gems/ruboty-<%=gem_name%>)
       EOS
 
       # generate Rubotyarticlegenfile to current directory.
