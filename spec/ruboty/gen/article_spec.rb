@@ -101,10 +101,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install ruboty-sample_gem
-
 ## <i class="fa fa-terminal" style="font-size:1em;"></i> Commands
 
 |Command|Pattern|Description|

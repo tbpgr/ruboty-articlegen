@@ -113,10 +113,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install ruboty-<%=gem_name%>
-
 ## <i class="fa fa-terminal" style="font-size:1em;"></i> Commands
 
 |Command|Pattern|Description|
